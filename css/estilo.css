@@ -1,0 +1,255 @@
+/*Estilo*/
+
+/*Formatação Geral*/
+
+Body{
+	background: url(../imagens/tec1.jpg) repeat-y;
+	font-family: sans-serif;
+}
+
+p{
+	text-align: justify;
+}
+
+/*Formatação menu*/
+
+#navegacao{
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 0.2em;
+}
+
+#navegacao a{
+	text-decoration: none;
+	color: #D3CCE3;
+	margin: 10px;
+	padding: 10px;
+}
+
+#navegacao a:hover{
+	background: #D3CCE3;
+	color: #000;
+	border-radius: 10px;
+}
+
+/*Formatação Texto 1*/
+
+.texto1{
+	padding: 40px;
+	margin: 10px 5px;
+	font-size: 2em;
+
+}
+
+.lcs{
+	margin-left: 200px;
+}
+
+h1{
+	line-height: 15px;
+	color: #D3CCE3;
+}
+
+/*Formatação do formulário*/
+
+#contato{
+	margin-top: -50px;
+	margin-left:50px;
+}
+
+.conta{
+	color: #D3CCE3;
+	border-top: 2px solid #A9A9A9;
+	border-bottom: 2px solid #A9A9A9;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+form{
+	
+	margin-top: 10px;
+	margin-left: 100px;
+	padding: 10px;
+}
+
+input{
+	border: none;
+	border-radius: 10px;
+	width: 300px;
+	height: 30px;
+	opacity: 0.7;
+	margin-right:90px;
+}
+
+textarea{
+	border: none;
+	border-radius: 10px;
+	opacity: 0.7;
+	width: 300px;
+	height: 80px;
+}
+
+.btn{
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color:#00B4DB;
+	color: #fff;
+}
+
+/*Formatação imagem home*/
+.img-social{
+	width: 830px;
+	display: flex;
+	flex-direction: row;
+	margin: -400px 500px;
+}
+
+/*Formatação texto 2*/
+
+#dev{
+	padding: 20px;
+	margin-top: 300px;
+	background-color:#D3CCE3;
+	text-align: center;
+}
+
+.desen{
+	padding: 10px;
+}
+
+/*formatação sobre*/
+
+.sob{
+	text-align: center;
+	color:#D3CCE3;
+	padding: 20px;
+	margin-top: 30px;
+		
+}
+
+.so{
+	border-top: 2px solid #A9A9A9;
+	border-bottom: 2px solid #A9A9A9;
+	padding: 10px;
+	width: 200px;
+	margin-left: 550px;
+	text-align: center;
+}
+
+.texto3{
+	font-size: 17px;
+	padding: 10px;
+	margin-top: 60px;
+	margin-left: 30px;
+	color:#D3CCE3; 
+	text-align: justify-all;
+}
+
+.programador{
+	width: 700px;
+	margin-top: -300px;
+	margin-left: 600px;
+}
+
+/*Formatação Skills*/
+
+#skills{
+	background-color:#D3CCE3;
+	text-align: center;
+	padding: 10px;
+}
+
+.img-ski{
+	margin-right: 60px;
+}
+
+.sk{
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	padding: 10px;
+	width: 200px;
+	margin-left: 550px;
+	text-align: center;
+
+}
+
+.ski{
+	width: 300px;
+	padding: 30px;
+	margin-top: 20px;
+	margin-right: 60px;
+}
+
+.js{
+	width: 260px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+
+}
+
+/*Formatação projetos*/
+
+#projet{
+	padding: 20px;
+}
+
+
+.projeto{
+	border-top: 2px solid #E0EAFC;
+	border-bottom: 2px solid #E0EAFC;
+	color: #E0EAFC;
+	padding: 10px;
+	width: 200px;
+	margin-left: 550px;
+	text-align: center;
+}
+
+.img-proj{
+	margin:-10px auto 30px ;
+	padding: 10px;
+}
+
+.chale{
+	 padding:10px;
+	 margin-top:50px;
+	 width:300px;
+	 height:auto;
+	 border-radius:20px;
+ }
+  .noticia{
+	 padding:10px;
+	 width:300px;
+	 height:185px;
+	 border-radius:20px;
+ }
+ .blog{
+	 padding:10px;
+	 margin-top:50px;
+	 width:300px;
+	 height:185px;
+	 border-radius:20px;
+ }
+  .lct{
+	 padding:10px;
+	 margin-top:50px;
+	 width:300px;
+	 height:185px;
+	 border-radius:20px;
+ }
+
+ /*formatação rodapé*/
+
+ #rodape{
+ 	background-color:#D3CCE3;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+ .rod{
+ 	text-align: center;
+ }
